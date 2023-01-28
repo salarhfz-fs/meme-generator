@@ -1,0 +1,33 @@
+.header {
+    height: 6.5rem;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    padding: 2rem;
+
+    &__brand {
+        display: flex;
+        align-items: center;
+        gap: .6rem;
+
+        &__img {
+            width: 3rem;
+            height: 2.6rem;
+        }
+
+        &__text {
+            font-weight: 700;
+            font-size: 2.1rem;
+            line-height: 2.4rem;
+            letter-spacing: -0.1em;
+        }
+    }
+
+    &__details {
+        font-weight: 500;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+}
