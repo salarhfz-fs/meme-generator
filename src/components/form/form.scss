@@ -1,0 +1,37 @@
+.form {
+    padding: 3.6rem;
+
+    &__inputs {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        input {
+            border: 1px solid #D5D4D8;
+            border-radius: 5px;
+            width: 23rem;
+            padding: 0 .9rem;
+            font-weight: 400;
+            font-size: 1.2rem;
+            line-height: 3.3rem;
+            color: #0D0D0D;
+            font-family: 'Karla', sans-serif;
+        }
+    }
+
+    &__submit {
+        font-family: 'Karla', sans-serif;
+        background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+        border: none;
+        border-radius: 5px;
+        color: #FFF;
+        font-weight: 700;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        letter-spacing: -0.1em;
+        width: 100%;
+        padding: 1rem 0;
+        margin-top: 2.5rem;
+        cursor: pointer;
+    }
+}
